@@ -1,0 +1,254 @@
+#Bootstrap-override {
+    font-family: 'Bodoni Moda', 'Times New Roman', Times, serif;
+    color:  #aad8d3;
+}
+
+.light {
+    /* background-color:  #6e798a; */
+    background-image: url("../images/mountain.jpg");
+    margin: 0;
+}
+
+h1 {
+    /* color: #00adb5; */
+    font-weight: bold;
+    margin: 0px;
+    font-size: 4em;
+    line-height: 2;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+h2 {
+    padding: 1%;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 5px;
+    margin: 100px auto;
+}
+
+a {
+    border: none;
+    /* color: #00adb5; */
+    color: #395B64;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: #A5DFDE;
+}
+
+.middle-container {
+    background-color: #F5F2E7;
+    color: #2C3333;
+    padding: 10% 0 10% 0;
+}
+
+.bottom-container {
+    background-color: #6e798a;
+    
+}
+
+
+/* .right-cloud {
+    position: absolute;
+    right: 10%;
+    
+}
+
+.left-cloud {
+   position: absolute;
+   top: 45%;
+   left: 15%;
+    
+} */
+
+.computerpic {
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.pencilpic {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  
+}
+
+.skills-text {
+    font-size: 1.2rem;
+    font-weight: 1.5rem;
+}
+
+.skill-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: .8em;
+    padding-top: 5%;
+    margin: 0%;
+}
+
+.contact-me {
+    padding: 5% 0 0 0;
+    
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 40px;
+}
+
+/* .btn {
+    background: #c3f5fa;
+    background-image: -webkit-linear-gradient(top, #c3f5fa, #aad8d3);
+    background-image: -moz-linear-gradient(top, #c3f5fa, #aad8d3);
+    background-image: -ms-linear-gradient(top, #c3f5fa, #aad8d3);
+    background-image: -o-linear-gradient(top, #c3f5fa, #aad8d3);
+    background-image: linear-gradient(to bottom, #c3f5fa, #aad8d3);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #00adb5;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6fccd4;
+    background-image: -webkit-linear-gradient(top, #6fccd4, #7bc7bd);
+    background-image: -moz-linear-gradient(top, #6fccd4, #7bc7bd);
+    background-image: -ms-linear-gradient(top, #6fccd4, #7bc7bd);
+    background-image: -o-linear-gradient(top, #6fccd4, #7bc7bd);
+    background-image: linear-gradient(to bottom, #6fccd4, #7bc7bd);
+    text-decoration: none;
+  } */
+
+  .btn {
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #2C3333;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #396969;
+    background-image: -webkit-linear-gradient(top, #396969, #334040);
+    background-image: -moz-linear-gradient(top, #396969, #334040);
+    background-image: -ms-linear-gradient(top, #396969, #334040);
+    background-image: -o-linear-gradient(top, #396969, #334040);
+    background-image: linear-gradient(to bottom, #396969, #334040);
+    text-decoration: none;
+  }
+
+/* title section */
+
+#title {
+    color: #395B64;
+}
+
+#title h1 {
+    font-style: italic;
+}
+.container-fluid {
+    margin: 2% 5% 2% 5%;
+}
+
+
+  /* Nav bar */
+.navbar {
+    
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.nav-brand-items {
+    padding: 0 20px 20px 0;
+}
+
+.intro {
+    display: inline-block;
+    width: 40%;
+    padding: 0 0 10% 0;
+}
+.subintro {
+    padding: 5% 0 5% 0;
+    font-size: 1.2rem;
+}
+
+#resume {
+    background-image: url("../images/mountain3resize.jpg");
+}
+
+
+#projects {
+    background-color: #F5F2E7;
+    color: #2C3333;
+    
+}
+
+.project-descriptions {
+    /* background-color: #F5F2E7; */
+   
+}
+
+.proj-intro {
+    padding: 0 3% 3% 3%;
+}
+
+.project-text {
+    font-size: 1.5rem;
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 5%;
+}
+
+.project-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 1%;
+}
+
